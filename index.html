@@ -393,11 +393,10 @@
     */
     .project-photos {
       display: grid;
-      grid-template-columns: 1fr 1fr;   /* 2 columns */
-      grid-template-rows: auto auto;    /* 2 rows */
+      grid-template-columns: repeat(3, 1fr);   /* Changed to 3 equal columns */
+      grid-template-rows: auto auto;    
       gap: 16px;
-      width: 70%;        /* top + bottom rows span 70% of text width */
-      /* Remove margin:auto so it stays left-aligned under the text */
+      width: 100%;       /* Changed to 100% so 3 images have breathing room */
     }
 
     .project-photo {
@@ -1079,7 +1078,9 @@
           <div class="project-photo"><img src="C:\Users\Vaskor\Desktop\Vasker dey portfolio\TR1.jpg" alt="Training session 1"></div>
           <div class="project-photo"><img src="C:\Users\Vaskor\Desktop\Vasker dey portfolio\TR2.jpg" alt="Training session 2"></div>
           <div class="project-photo"><img src="C:\Users\Vaskor\Desktop\Vasker dey portfolio\TR3.jpg" alt="Training session 3"></div>
-          <div class="project-photo">📍 Add your 4th photo here</div>
+          <div class="project-photo">📍 Photo 4</div>
+          <div class="project-photo">📍 Photo 5</div>
+          <div class="project-photo">📍 Photo 6</div>
         </div>
       </div>
 
@@ -1107,6 +1108,8 @@
           <div class="project-photo">📍 Data collection photo</div>
           <div class="project-photo">📍 Special school photo</div>
           <div class="project-photo">📍 Team debrief photo</div>
+           <div class="project-photo">📍 Photo 5</div>
+          <div class="project-photo">📍 Photo 6</div>
         </div>
       </div>
 
@@ -1134,6 +1137,8 @@
           <div class="project-photo">📍 Teacher training photo</div>
           <div class="project-photo">📍 Student activity photo</div>
           <div class="project-photo">📍 Team / event photo</div>
+           <div class="project-photo">📍 Photo 5</div>
+          <div class="project-photo">📍 Photo 6</div>
         </div>
       </div>
 
